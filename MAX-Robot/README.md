@@ -3,7 +3,7 @@
 ## Project Overview
 MAX is a custom-built, Wall-E-style interactive desktop robot designed to process natural language commands and respond with physical actions. This project demonstrates the seamless integration of offline voice processing, AI-driven decision-making logic, and localized electromechanical hardware control.
 
-<img src="Max_Front.png" width="500" alt="MAX Robot Hardware">
+<img src="Max_Front.jpeg" width="500" alt="MAX Robot Hardware">
 <br> *The assembled MAX desktop robot, featuring articulated servo-driven joints for expressive movement.*
 
 Reference = "https://youtu.be/x0oUZ4HS7lg?si=6bdQm67jqX90B_nI"
