@@ -24,7 +24,7 @@ The Arduino parses the serial data and generates the precise PWM signals require
 
 *(Watch MAX in action below)*
 
-<video src="Max_robot.mp4" width="800" controls></video>
+<video src="Max_The_Robot.mp4" width="800" controls></video>
 
 ---
 *Note: The core Python scripts and Arduino firmware are kept private, but are available for review upon request.*
