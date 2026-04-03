@@ -16,3 +16,6 @@ To achieve autonomous AI control, an **Imitation Learning** architecture was imp
 
 *(Watch the system in action below)*
 <video src="Ball_balancing_Video.mp4" width="800" controls></video>
+
+---
+*Note: The Simulink models, STM32/ESP32 firmware, and full project documentation are kept private, but are available for review upon request.*
