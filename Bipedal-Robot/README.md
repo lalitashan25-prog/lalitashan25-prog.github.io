@@ -3,7 +3,7 @@
 ## Project Overview
 This project focused on achieving stable, continuous locomotion for a custom-designed bipedal robot. The core challenge was developing a robust control system capable of maintaining dynamic balance while navigating complex environments. This project bridges the gap between traditional state-based control and deep reinforcement learning by utilizing an imitation learning architecture.
 
-<img src="Setup.jpg" width="800" alt="NVIDIA Isaac Sim Environment">
+<img src="Setup.png" width="800" alt="NVIDIA Isaac Sim Environment">
 <br> *The custom simulation environment built in NVIDIA Isaac Sim, featuring various terrain challenges and obstacles to test the robot's locomotion robustness.*
 
 ## Implementation Details
@@ -16,7 +16,7 @@ The project began with the physical architecture of the bipedal legs, designed w
 
 To control the precise placement of the robot's feet during the walking cycle, **Inverse Kinematics (IK)** was utilized. By applying geometric IK formulas, the system calculates the exact required joint angles based on the desired Cartesian coordinates of the foot trajectories.
 
-<img src="Inverse_Kinematics.jpg" width="600" alt="Inverse Kinematics Diagram">
+<img src="Inverse_Kinematics.png" width="600" alt="Inverse Kinematics Diagram">
 <br> *Inverse Kinematics geometric derivation used for joint angle calculations. (Source: [Robot Academy](https://robotacademy.net.au/lesson/inverse-kinematics-for-a-2-joint-robot-arm-using-geometry/))*
 
 ### Control Architecture & Imitation Learning
