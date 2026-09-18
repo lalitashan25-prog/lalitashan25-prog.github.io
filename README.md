@@ -19,4 +19,4 @@ As an aspiring graduate student, I have a strong interest in advancing my expert
 * [**2-Axis Ball Balancing Robot**](./2-Axis-Ball-Balancing/) - A closed-loop electromechanical control system designed to stabilize a dynamic moving platform.
 
 * [**IoT-Enabled Two-Wheeled Robot**](./IoT-Wheeled-Robot/) - A smart control project utilizing Blynk and Simulink to remotely manage and drive a wheeled robotic system.
-* [Custom Hand Sign Recognition](./Hand-Sign-Recognition) - A real-time computer vision system using MediaPipe and a TensorFlow Sequential model to classify hand gestures and convert them to spoken audio.
+* [**Custom Hand Sign Recognition**](./Hand-Sign-Recognition) - A real-time computer vision system using MediaPipe and a TensorFlow Sequential model to classify hand gestures and convert them to spoken audio.
