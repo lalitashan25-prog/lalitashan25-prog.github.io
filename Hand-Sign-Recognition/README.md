@@ -14,7 +14,7 @@ To capture hand movements, **MediaPipe's Hand Tracking module** was utilized to 
 
 - **Data Collection:** Images of custom hand signs were captured, and the corresponding landmark coordinates were recorded.
 - **Preprocessing:** The landmark data was centered, normalized, and flattened into a structured dataset.
-- **Dataset Structure:** Stored with 43 columns (1 index column representing the hand sign category and 42 coordinate columns for the 21 landmarks $\times$ 2 axes).
+- **Dataset Structure:** Stored with 43 columns (1 index column representing the hand sign category and 42 coordinate columns for the 21 landmarks x 2 axes).
 
 ![Dataset Structure](dataset-structure.png)
 
@@ -22,7 +22,7 @@ To capture hand movements, **MediaPipe's Hand Tracking module** was utilized to 
 
 A deep learning classifier was built using a **TensorFlow/Keras Sequential model** to process the flattened landmark coordinates and output the correct hand sign class.
 
-- **Input Layer:** 42 features (21 landmarks $\times$ 2 coordinates)
+- **Input Layer:** 42 features (21 landmarks x 2 coordinates)
 - **Hidden Layers:** Dense layers with ReLU activation, integrated with Dropout layers (0.2 and 0.4) to prevent overfitting.
 - **Output Layer:** Softmax activation with 9 output classes corresponding to the distinct hand signs.
 
